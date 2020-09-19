@@ -34,3 +34,8 @@ async function getQuote(){
 
 // On load
 getQuote();
+
+// on click
+$("#new-quote").on("click", function(){
+    getQuote();
+});
